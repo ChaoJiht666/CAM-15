@@ -42,7 +42,9 @@ CAM-15/35是一个面向中文短文本分类的**白盒可解释特征提取框
 支持Unigram/Bigram/Trigram三种粒度：
 - 正弦位置编码（Sinusoidal Position Encoding）
 - 方向掩码（Direction Mask）：区分前向/后向关联
-- 距离衰减权重（Distance Decay）：$w = \exp(-\lambda \cdot d)$
+- 距离衰减权重（Distance Decay）：$$
+w = \exp(-\lambda \cdot d)
+$$
 
 ### 5. 语义增强共现计数 (Semantic-weighted Co-occurrence)
 可选集成Word2Vec语义相似度：
@@ -255,3 +257,4 @@ python tfidf_pca_31d_xgb.py train --data ../Data/train --dim 15
 <div align="center">
 <b>基于共现局部性的白盒AI，让每一次分类决策都可追溯、可解释、可信赖。</b>
 </div>
+
