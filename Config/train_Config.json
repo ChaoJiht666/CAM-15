@@ -1,0 +1,8 @@
+{
+    "output_dir": "Output/train",
+    "log_dir": "log/train",
+    "batch_size": 32,
+    "save_intermediate": true,
+    "parallel": false,
+    "num_workers": 4
+}

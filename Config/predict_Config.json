@@ -1,0 +1,7 @@
+{
+    "model_dir": "Models",
+    "output_dir": "Output/predict",
+    "log_dir": "log/predict",
+    "batch_size": 64,
+    "return_attention": false
+}

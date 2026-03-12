@@ -1,0 +1,7 @@
+{
+    "model_path": "Models/cam4_model.pkl",
+    "test_data": "Data/test",
+    "output_dir": "Output/test",
+    "log_dir": "log/test",
+    "metrics": ["accuracy", "precision", "recall", "f1"]
+}

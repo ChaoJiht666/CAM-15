@@ -1,0 +1,9 @@
+{
+    "train_data": "Data/train",
+    "test_data": "Data/test",
+    "val_data": "Data/val",
+    "file_pattern": "*.csv",
+    "text_column": "text",
+    "label_column": "title",
+    "encoding": "utf-8"
+}
