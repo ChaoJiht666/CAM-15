@@ -1,0 +1,12 @@
+numpy
+pandas
+scipy
+tqdm
+matplotlib
+scikit-learn
+XGBoost
+gensim
+seaborn
+jieba
+resource # linux
+psutil # win
