@@ -48,7 +48,10 @@ $$
 
 ### 5. 语义增强共现计数 (Semantic-weighted Co-occurrence)
 可选集成Word2Vec语义相似度：
-- 基于余弦相似度的动态权重：$weight = \frac{1 + \cos(v_i, v_j)}{2}$
+- 基于余弦相似度的动态权重：
+$$
+weight = \frac{1 + \cos(v_i, v_j)}{2}
+$$
 - 支持预训练向量或语料内训练轻量级模型
 
 ## 📊 性能基准 (Benchmarks)
@@ -257,4 +260,5 @@ python tfidf_pca_31d_xgb.py train --data ../Data/train --dim 15
 <div align="center">
 <b>基于共现局部性的白盒AI，让每一次分类决策都可追溯、可解释、可信赖。</b>
 </div>
+
 
